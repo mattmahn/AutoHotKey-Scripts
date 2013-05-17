@@ -3,6 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+; Increase the master volume when Win+LMB is pressed
 #LButton::
 {
 	Send {Volume_Up}
@@ -10,6 +11,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	Return
 }
 
+; Decrease the master volume when Win+RMB is pressed
 #RButton::
 {
 	Send {Volume_Down}
@@ -17,6 +19,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 	Return
 }
 
+; Mute master volume when Win+Middle Button is pressed
 #MButton::
 {
 	Send {Volume_Mute}
