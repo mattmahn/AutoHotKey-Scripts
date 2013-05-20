@@ -8,5 +8,5 @@ $RButton::Send {RButton}
 RButton & WheelUp::Send {Volume_Up}			; Scroll Up+RMB -> Increase volume
 RButton & WheelDown::Send {Volume_Down}		; Scroll Down+RMB -> Decrease Volume
 RButton & MButton::Send {Media_Play_Pause}	; Middle Button+RMB -> Play/Pause Media
-RButton & XButton1::Send {Media_Next}		; Forward Button+RMB -> Next Track
-RButton & XButton2::Send {Media_Prev}		; Back Button+RMB -> Previous Track
+RButton & XButton2::Send {Media_Next}		; Forward Button+RMB -> Next Track
+RButton & XButton1::Send {Media_Prev}		; Back Button+RMB -> Previous Track
